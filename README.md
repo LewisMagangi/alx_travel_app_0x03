@@ -1,4 +1,4 @@
-# ALX Travel App 0x01
+# ALX Travel App 0x02
 
 A comprehensive Django-based travel listing platform with robust API documentation and database configuration.
 
