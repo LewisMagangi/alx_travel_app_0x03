@@ -82,7 +82,6 @@ Before you begin, ensure you have the following installed:
 - Understanding of version control using Git
 - Basic grasp of environment variable management
 
-## 🔧 Installation
 
 1. **Clone the repository**
 
@@ -122,6 +121,7 @@ Before you begin, ensure you have the following installed:
 
    ```env
    # Django Settings
+
    SECRET_KEY=your-secret-key-here
    DEBUG=True
    ALLOWED_HOSTS=localhost,127.0.0.1
