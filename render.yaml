@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: alx-travel-app
+    runtime: python
+    buildCommand: "./build.sh"
+    startCommand: "gunicorn --chdir alx_travel_app alx_travel_app.wsgi:application"
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11.0"
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DEBUG
+        value: "False"
+      - key: ALLOWED_HOSTS
+        sync: false
