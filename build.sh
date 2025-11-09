@@ -5,5 +5,9 @@ set -o errexit
 pip install --upgrade pip
 pip install -r requirements.txt
 
+# Run migrations
+python alx_travel_app/manage.py makemigrations --noinput
+python alx_travel_app/manage.py migrate --noinput
+
+# Collect static files
 python alx_travel_app/manage.py collectstatic --no-input
-python alx_travel_app/manage.py migrate
