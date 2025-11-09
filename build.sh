@@ -11,3 +11,6 @@ python alx_travel_app/manage.py migrate --noinput
 
 # Collect static files
 python alx_travel_app/manage.py collectstatic --no-input
+
+# Create superuser automatically
+python alx_travel_app/create_superuser.py
